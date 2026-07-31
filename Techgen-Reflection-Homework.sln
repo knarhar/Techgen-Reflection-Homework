@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PriceEngineReflection", "..\PriceEngineReflection\PriceEngineReflection\PriceEngineReflection.csproj", "{82713CCD-2455-482B-A268-E87DED7B2F72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PriceEngine", "PriceEngine", "{964EB9AC-916D-40EB-833E-5B1CBF7B0E81}"
+	ProjectSection(SolutionItems) = preProject
+		PriceEngine.md = PriceEngine.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceEngineWrapper", "..\PriceEngineReflection\PriceEngineWrapper\PriceEngineWrapper.csproj", "{6248BE81-755C-4657-85FE-320EF8D0A42E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CsvSerializer", "CsvSerializer", "{84067D32-B8C7-4639-9D16-F70F2706663E}"
+	ProjectSection(SolutionItems) = preProject
+		CsvSerializer.md = CsvSerializer.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVSerializer", "..\Serializer\Serializer\CSVSerializer.csproj", "{8D506E1C-36CA-4280-990A-06228046CA1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82713CCD-2455-482B-A268-E87DED7B2F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82713CCD-2455-482B-A268-E87DED7B2F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82713CCD-2455-482B-A268-E87DED7B2F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82713CCD-2455-482B-A268-E87DED7B2F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6248BE81-755C-4657-85FE-320EF8D0A42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6248BE81-755C-4657-85FE-320EF8D0A42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6248BE81-755C-4657-85FE-320EF8D0A42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6248BE81-755C-4657-85FE-320EF8D0A42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D506E1C-36CA-4280-990A-06228046CA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D506E1C-36CA-4280-990A-06228046CA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D506E1C-36CA-4280-990A-06228046CA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D506E1C-36CA-4280-990A-06228046CA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82713CCD-2455-482B-A268-E87DED7B2F72} = {964EB9AC-916D-40EB-833E-5B1CBF7B0E81}
+		{6248BE81-755C-4657-85FE-320EF8D0A42E} = {964EB9AC-916D-40EB-833E-5B1CBF7B0E81}
+		{8D506E1C-36CA-4280-990A-06228046CA1B} = {84067D32-B8C7-4639-9D16-F70F2706663E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DFF1C82-69A8-47A0-A774-88BC9444540A}
+	EndGlobalSection
+EndGlobal
