@@ -19,6 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CsvSerializer", "CsvSeriali
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVSerializer", "..\Serializer\Serializer\CSVSerializer.csproj", "{8D506E1C-36CA-4280-990A-06228046CA1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditDiffReflection", "AuditDiffReflection\AuditDiffReflection.csproj", "{988C858B-365D-483F-A360-921538BD1903}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF5BD421-2FEE-4534-BD4C-124DF763ACD1}"
+	ProjectSection(SolutionItems) = preProject
+		AuditDiff.md = AuditDiff.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +44,10 @@ Global
 		{8D506E1C-36CA-4280-990A-06228046CA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D506E1C-36CA-4280-990A-06228046CA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D506E1C-36CA-4280-990A-06228046CA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988C858B-365D-483F-A360-921538BD1903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988C858B-365D-483F-A360-921538BD1903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988C858B-365D-483F-A360-921538BD1903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988C858B-365D-483F-A360-921538BD1903}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
